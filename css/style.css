@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.895);
+    box-shadow: 0px 3px 15px rgba(113, 115,119,0.5);
+}
+nav img{
+    height: 18vh;
+}
+.header button{
+    height: 8vh;
+    width: 10vw;
+border-radius: 17px;
+background-color: rgba(1,126,130,255);
+color: white;
+border: none;
+font-size: 1.25em;
+}
+.btn{
+    margin-right: 3vw;
+    margin-top: 2vw;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn button:hover{
+    background-color: rgb(68,153,158);
+}
+.main {
+    height: 70vh;
+    margin-top: 2vw;  
+}
+.line{
+        border-left: 1px solid black;
+        height: 75vh;
+        position: absolute;
+        left: 50%;
+        top: 1;
+}
+ .para{
+font-size: 1.5em;
+}
+.para button{
+    height: 8vh;
+    width: 11vw;
+border-radius: 17px;
+margin-top: 3vw;
+color: white;
+border: none;
+ margin-top: 3vw; 
+font-size:.75em;
+}
+.white{
+background-color:  rgba(1,126,130,255);
+}
+/* .white button:hover{
+    background-color: black;
+} */
+.black{
+background-color: black;
+}
+.black a{
+text-decoration: none;
+color: white;
+}
+.para button:hover{
+    background-color: rgb(68,153,158);
+}
+footer{
+    background-color: black;
+    height: 40vh;
+    margin-top: 4vw;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    font-size: 1.75em;
+}
+.icons i{
+    transition: ease-in-out 1.2s;
+}
+.icons i:hover{
+background-color: rgb(68,153,158);
+transform: scale(1.2);
+}
+.links a{
+    color: white;
+text-decoration: none;
+justify-content: center;
+}
+.links li{
+    list-style: none;
+}
